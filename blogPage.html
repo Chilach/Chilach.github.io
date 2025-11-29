@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Portfolio</title>
+    <style>
+        /* These styles match your index.html to keep everything consistent */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Section - same styling as index */
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* Navigation menu to go back to home */
+        nav {
+            background: #34495e;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #2c3e50;
+            border-radius: 5px;
+        }
+
+        /* Container - same as index */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Blog post styling */
+        .blog-post {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: box-shadow 0.3s;
+        }
+
+        .blog-post:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .blog-post h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        .blog-post .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .blog-post p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .read-more {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        /* Page title section */
+        .page-title {
+            margin: 60px 0 40px 0;
+        }
+
+        .page-title h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Footer - matches index */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .blog-post h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header matching your portfolio style -->
+    <header>
+        <h1>My Blog</h1>
+        <p>Thoughts, tutorials, and updates</p>
+    </header>
+
+    <!-- Navigation bar to go back home -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Blog</a>
+    </nav>
+
+    <div class="container">
+        <p> 
+        Here are some of my thoughts, in a form of showing my capabilities writing articles and learning code, some of them will be wrote in spanish, other in english.
+        </p>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="page-title">
+            <h1>Recent Posts</h1>
+        </div>
+
+
+        <!-- Blog Post 1 -->
+        <article class="blog-post">
+            <h2>Sobre el Hombre Moderno</h2>
+            <span class="date">November 29, 2024</span>
+            <p>
+                Sobre todo, ¿cómo debemos comportarnos en el mundo moderno dadas las complejidades sobre las cueles se sostiene? la respuesta a esta pregunta no existe, y sin embargo todos los días vivimos a la sobra de su respuesta.
+            </p>
+            <a href="content/blog/hombre_moderno.html" class="read-more">Read more →</a>
+        </article>
+
+        <!-- Blog Post 2 -->
+        <article class="blog-post">
+            <h2>Learning CSS: My Journey So Far</h2>
+            <span class="date">November 25, 2024</span>
+            <p>
+                CSS has been an amazing discovery for me. At first, styling seemed 
+                complicated, but once I understood the box model and how selectors work, 
+                everything started making sense. In this post, I share some tips that 
+                helped me get started with CSS.
+            </p>
+            <a href="#" class="read-more">Read more →</a>
+        </article>
+
+        <!-- Blog Post 3 -->
+        <article class="blog-post">
+            <h2>Building My First Portfolio Website</h2>
+            <span class="date">November 20, 2024</span>
+            <p>
+                Creating my portfolio website was both challenging and rewarding. 
+                I learned so much about structuring HTML properly and making responsive 
+                designs. Here's what I learned along the way and some mistakes I made 
+                that you can avoid.
+            </p>
+            <a href="hombre_moderno.html" class="read-more">Read more →</a>
+        </article>
+    </div>
+
+    <!-- Footer matching your portfolio -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

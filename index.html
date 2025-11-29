@@ -35,6 +35,27 @@
             opacity: 0.9;
         }
 
+        /* Navigation menu */
+        nav {
+            background: #34495e;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #2c3e50;
+            border-radius: 5px;
+        }
+
         /* Container for content */
         .container {
             max-width: 1000px;
@@ -153,9 +174,15 @@
 <body>
     <!-- Header with your name and title -->
     <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | Designer | Creator</p>
+        <h1>Julian Mejia</h1>
+        <p>Developer | Mathematician | Creator</p>
     </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blogPage.html">Blog</a>
+    </nav>
 
     <!-- Main content container -->
     <div class="container">
@@ -163,7 +190,7 @@
         <section id="about">
             <h2>About Me</h2>
             <div class="about-content">
-                <p>Hello! I'm a beginner web developer passionate about creating beautiful and functional websites. I'm constantly learning new technologies and improving my skills.</p>
+                <p>Hello, im a Junior backend developer.</p>
                 <p>This portfolio showcases my journey and the projects I've worked on. Feel free to explore and get in touch!</p>
             </div>
         </section>
@@ -173,14 +200,14 @@
             <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>A brief description of your first project. What did you build and what technologies did you use?</p>
-                    <a href="#" class="project-link">View Project →</a>
+                    <h3>Rummylatro</h3>
+                    <p>A coop game developed in C++ with the SFML graphics library which intends to be open-source (at least the alpha version).</p>
+                    <a href="project/rummylatro.html" class="project-link">View Project →</a>
                 </div>
                 <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>A brief description of your second project. What problem does it solve?</p>
-                    <a href="#" class="project-link">View Project →</a>
+                    <h3>Lattices in Cryptography</h3>
+                    <p>This is my thesis investigation (the formal document is written in spanish) as an undergrad in Universidad del Valle, the objective is to develope a Diffie-Hellman algorithm protocols to be prepared for the post-quantum world.</p>
+                    <a href="thesis.html" class="project-link">View Project →</a>
                 </div>
                 <div class="project-card">
                     <h3>Project Three</h3>
@@ -199,6 +226,14 @@
                 <span class="skill">JavaScript</span>
                 <span class="skill">Responsive Design</span>
                 <span class="skill">Git</span>
+                <span class="skill">C/C++</span>
+                <span class="skill">Python</span>
+                <span class="skill">LaTeX</span>
+                <span class="skill">English</span>
+                <span class="skill">Spanish</span>
+                <span class="skill">German</span>
+                <span class="skill">Poetry</span>
+                <span class="skill">Philosophy</span>
             </div>
         </section>
 
@@ -215,7 +250,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Julián A. Mejía B.. All rights reserved.</p>
     </footer>
 </body>
 </html>
