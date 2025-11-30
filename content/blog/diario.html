@@ -121,6 +121,72 @@
             padding-bottom: 10px;
         }
 
+                /* Styled Lists - NEW STYLES */
+        .container ul,
+        .container ol {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+
+        .container ul li,
+        .container ol li {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 12px;
+        }
+
+        /* Bullet list styling */
+        .container ul li {
+            list-style-type: disc;
+        }
+
+        .container ul li::marker {
+            color: #3498db;
+            font-size: 1.2em;
+        }
+
+        /* Numbered list styling */
+        .container ol li {
+            list-style-type: decimal;
+        }
+
+        .container ol li::marker {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        /* Nested lists */
+        .container ul ul,
+        .container ol ol,
+        .container ul ol,
+        .container ol ul {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Headings */
+        .container h2 {
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .container h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .container p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
         /* Footer - matches index */
         footer {
             background: #2c3e50;
@@ -139,7 +205,13 @@
             .blog-post h2 {
                 font-size: 1.5em;
             }
+
+            .container ul,
+            .container ol {
+                padding-left: 25px;
+            }
         }
+
     </style>
 </head>
 <body>
@@ -167,8 +239,24 @@
         <h3> What Julian is Today </h3>
         <p>
         Firts of all a man can be completely determined by the its relations with the world because that's maybe the most important part of existence meaning that when someone percieves you that's enouhg proof of existence, all the other mental masturbations done by philosophers through centuries is bullshit but it is important for us to also know the path followed by them so we know which are the best.
-        
         </p>
+        <p>
+        Julian is definitely what he does and in that journey he descovers what he really is, there is no doubt about it. So the activities carried by him in his life are:
+        </p>
+        <ul>
+            <li>Mathematics</li>
+            <li>Programming</li>
+            <li>Poetry/Writing</li>
+        </ul>
+        but these are not the worst things that Julian have done, those are:
+        <ul>
+            <li>Afraid of taking action specially the love path.</li>
+            <li>Laziness, always taking the shortest path and leaving for later what you can do today.</li>
+            <li>Disrupted mind, never taking control of its own actions.</li>
+            <li>Never finishing what he starts.</li>
+            <li>Wake up late.</li>
+        </ul>
+    Julian has to start taking action in becoming the best of himself.
     </div>
     <!-- Footer matching your portfolio -->
     <footer>
